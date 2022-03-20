@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+
+<link rel="stylesheet" href="./css/StyleLogin.css">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<script src = "/socket.io/socket.io.js" charset="utf-8"></script><!--este nos permitira importar el codigo autogenerado de socket io , para que funcionen los web sockets en nuestra aplicacion web-->
+<script src="/js/main.js" charset="utf-8"></script>	
+
+<script src = "js/password.js" charset="utf-8"></script><!--script para las credenciales -->
+ 
+<form name="form1" align="center">
+	<header>
+	
+	<section class="textos-header">
+		<div class="contenedor">
+		<img src="./imagenes/init.png">
+		<h1>Ὑπερηφανία</h1>
+		<h2>-Anonymous Server-</h2>
+		</div>
+	</section>	
+	
+<section class="Ingreso">
+	<div class="contenedor">
+		
+			<FORM name=form>
+				<h3>User: <input type="text" name="txt" class="boton">				
+				Password:<input type="text" name="num" class="boton"></h3>
+				
+				<h3></h3>
+				<input type="button" value="Login in" onclick="usrpas()" class="botonENVIAR">
+			</FORM> 
+		
+	</div>
+</section>
+</form>	
+</header>
+
+
+</body>
+</html>

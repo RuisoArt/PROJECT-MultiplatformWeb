@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* DISEÑOS GENERALES */ 
+body
+{
+    font-family: 'DM Sans', sans-serif; 
+}
+
+.contenedor
+{
+    padding: 30px 0; /*Ya que cada seccion tiene la clase contenedor , cad auna se separa con una margen de 30px vertical , 0 horizontal*/
+    width: 72%;
+    max-width: 1000px;
+    margin: auto; /*centrame todo con margenes automaticas*/
+    overflow: hidden; /* si algo esta fuera del limite de acho se ocultara */
+}
+
+.titulo
+{
+    color: #AF7AC5 ;
+    font-size: 40px; /*tamaño del texto*/
+    text-align: center;
+    margin-bottom: 50px; /*separacion de la seccion al titulo ( tendencias )*/
+}
+/* HEADER */
+
+header
+{
+    width: 100%;
+    height: 600px;
+
+    /*esto degradado lo consegui en https://uigradients.com/#OrangeFun*/
+    background: #fc4a1a;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(40, 92%, 58%, 0.5), hsla(13, 97%, 55%, 0.5)),url(../imagenes\ store/compras.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(40, 92%, 58%, 0.5), hsla(13, 97%, 55%, 0.5)),url(../imagenes\ store/compras.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+header .textos-header /*TEXTO DEL DEGRADADO*/
+{
+    display:flex;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}.textos-header h1
+{
+    font-size: 80px;
+    color:#FFFF;
+}.textos-header h2
+{
+    font-size: 25px;
+    color:#FFFF;
+}
+nav{
+    text-align: center;
+    padding: 60px 0 0 0;
+}nav > a{
+    color: #ffffff;
+    font-weight: 300;
+    font-size: 25px;
+    text-decoration: none;
+    margin-right: 15px;
+
+}nav > a:hover{    text-decoration: underline; color: #ffffff;}
+
+.wave /*posicion de la ola*/
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;  
+}
+/*Contenido de galeria de imagenes que pueden ser menu*/
+.galeria
+{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}.imagen-port
+{
+    width: 90%;
+    /*height: 200px;*/
+    /*margin-bottom:10px;*/
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+    /*box-shadow: 0 0 5px 0 rgba(0,0,0, .5);*/
+}.imagen-port > a > img 
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}

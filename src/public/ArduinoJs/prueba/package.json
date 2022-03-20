@@ -1,0 +1,16 @@
+{
+  "name": "prueba1ctm",
+  "version": "0.0.1",
+  "description": "prueba de funcionamiento arduino js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruiso",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^1.4.0",
+    "socket.io": "^2.3.0"
+  }
+}

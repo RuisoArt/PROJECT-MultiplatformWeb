@@ -1,0 +1,138 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<title>CHAT</title>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body ng-controller="ctrl" background="./imagenes/backgroundblack.png">
+	
+
+	<div>
+		<form align="center">
+
+		<table border="0" bgcolor="#000000" width="750" align="center">
+
+			<tr>
+				<td width="750" height="270" align="center"><img src="./imagenes/logoanonimo.png"></td>
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#000000" width="750" height="13"><font color="#FFFFFF" size="7">φιλαργυρία<font color="#FFFFFF"></font></td>
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#000000" width="750" height="13"><font color="#FFFFFF">-Anonymous chat-</font></td>
+			</tr>
+			</tr>
+				<tr>
+				<td border="0" bgcolor="#000000" width="750" height="13"></td>
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#41DFD0" width="750" height="7"></td>
+			</tr>
+		</table>
+
+	</form>
+</div>
+<div>
+	<form align="center">
+
+	<table border="0" bgcolor="#000000" align="center">
+			<!--Bottones de acceso en html clasico por tablas :3-->
+			<tr>
+				<td witdh="375" height="37" bgcolor="#FFFFFF"><a href="Chat.html"><font color="#000000">| Black Chat Room |</font></a></td>
+				<td witdh="375" height="37"><a href="Domotic.html"><font color="#FFFFFF">| Domotic Home |</font></a></td>
+				<td witdh="375" height="37" bgcolor="#FFFFFF" align="center"><a href="./Anfetamina.html"><font color="#000000">| Music Store |</font></a></td>
+			</tr>
+		</table>
+
+	</form>
+</div>
+<div>
+	<form align="center">
+
+	<table border="0" bgcolor="#000000" width="750" align="center">
+
+			<tr>
+				<td border="0" bgcolor="#41DFD0" width="750" height="7"></td>
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#000000" width="750" height="27"></td>
+			</tr>
+		</table>
+
+		</form>
+	</div>
+
+
+      	
+<div class="container" align="center" <!--Esta sera una division del tipo contenedor que tendra el chat-->
+	<table border="0" bgcolor="#000000" width="750" align="center">
+
+	<div class="col-md-8 mt-4"><!--ancho del chat 6 y margen del cuadro de 4-->
+		<div class="card" ><!--Tarjeta del chat-->
+			
+			<div class="card-header"><!--titulo de la tarjeta-->
+				<g4>FORUM</g4>
+			</div>
+
+			<div id="chat" class="card-body" align="left"><!--cuerpo del chat  o donde se muestra lo que se esta texteando por parte de los usuarios-->
+				<!--Los mensajes llegan desde los websockets , por lo que se enlazara esta parte con sockets-->
+
+			</div>
+
+			<form id="message-form" card-footer"><!--Seccion de cajas de tecto que enviaran los mensajes-->
+				<input type="text" id="message" class="form-control" placeholder="what are you thinking?">
+				<input type="submit"  class="btn btn-dark">
+			</form>
+
+		</div>
+	</div>
+
+	</tr>
+	<tr>
+		<td border="0" bgcolor="#000000" width="750" height="47"></td>
+	</tr>
+
+	<tr>
+		<td border="0" bgcolor="#41DFD0" width="750" height="7"></td>
+	</tr>
+
+
+</table>
+</div>		
+
+<!--id = "chat" es el encargado de listar los mensajes para que se muestren -->
+<!--id = "message"  es el encargado de recibir los mensajes por input-->
+<!--id = "message-form" es el encargado de enviar los  mensajes-->
+	
+	
+<!--
+Ponemos los sockets a funcionar en este Chat
+
+	<script src = "/socket.io/socket.io.js" charset="utf-8"></script>
+	<script src="/js/main.js" charset="utf-8"></script>
+
+para poder objetner los mensajes que llegan a la pagina web y estos se enlacen a los sockets,
+utilizaremos la biblioteca de JQuery
+
+Code.JQuery,com
+
+seleccionamos el JWuery core 3.3.1 la minified (que es la version que menos pesa ) 
+y copiamos el codigo para llamar la libreria por Script antes de los codigos de sockets, 
+asi tenemos primero el Jquery , luego los sockets y ya luego ejecuto el codigo de sockets(main.js con io();)
+-->	
+<script
+  src="http://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+
+  <script src = "/socket.io/socket.io.js" charset="utf-8"></script><!--este nos permitira importar el codigo autogenerado de socket io , para que funcionen los web sockets en nuestra aplicacion web-->
+	<script src="/js/main.js" charset="utf-8"></script>
+
+<!--Aspecto visual de el chat desde boostrap-->
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

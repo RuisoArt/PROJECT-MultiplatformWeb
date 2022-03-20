@@ -1,0 +1,75 @@
+npm i
+
+
+DOM (Document Object Model)
+https://si.ua.es/es/documentacion/xhtml-css/dom-document-object-model.html
+
+Documentacion de Node
+https://nodejs.org/dist/latest-v13.x/docs/api/
+
+Codigos de estado http
+https://es.wikipedia.org/wiki/Anexo:C%C3%B3digos_de_estado_HTTP
+
+paquetes de bibliotecas , modulos o extenciones NPM
+https://www.npmjs.com/package/colors
+
+Biblioteca Express
+https://expressjs.com/es/
+
+Gradientes de color         Me gusto el #A770EF #CF8BF3 #FDB99B
+https://uigradients.com/#Radar
+
+Recargar o redirigir a otra página con HTML
+https://desarrolloweb.com/articulos/recargar-redirigir-html-meta.html
+
+extencion de Google chrome Auto Refresh
+https://chrome.google.com/webstore/detail/auto-refresh/ifooldnmmcmlbdennkpdnlnbgbmfalko/related?hl=es_CO
+
+Biblioteca jQuery
+http://code.jquery.com/
+
+Biblioteca de themes html Boostrap
+https://getbootstrap.com/docs/4.4/utilities/colors/
+
+Pecados capitales en Griego
+https://es.wikipedia.org/wiki/Pecados_capitales#Avaricia
+
+Codigos de colores en html
+https://htmlcolorcodes.com/es/
+
+funcion flecha
+https://es.stackoverflow.com/questions/4681/qué-es-en-javascript
+
+Slide para anfetamine music store
+https://www.youtube.com/watch?v=f9NsnvvLG9I
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::
+CURSOS
+
+Vistazo Rapido de Deno
+https://faztweb.com/curso/deno-vistazo-rapido-practico
+
+Curso de JavaScript desde cero
+https://faztweb.com/curso/javascript
+
+Curso de Fazt - Chat Javascript Desde Cero
+https://www.youtube.com/watch?v=vGikkrp-HPM
+https://www.youtube.com/watch?v=s_Stz1KlSdo
+
+
+AYUDA de pagina con css
+
+Recursos para pagina webstore
+https://www.youtube.com/watch?v=zQ34Js7zq2A
+pexels.com          Imagenes sin derechos de autor
+flaticon.com         Iconos para sitio web
+freepng
+unplash
+fontawesome.com/start    iconos ( con registro obligatorio ) estos iconos son importados para proyecto web por <link>
+undraw.co           Ilustraciones libre para proyectos ( esta super super bueno :3)
+iconmonstr.com             iconos con libre coloreado y todo :3
+
+https://www.youtube.com/watch?v=CEpUfqlrr6A
+https://blog.faztweb.com/2018/03/recursos-para-disenadores-y.html   aqui estan todos los links :3 (mas profesionales)
+

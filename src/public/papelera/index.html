@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8" />
+<title>Login</title>
+
+</head>
+
+<body background="./imagenes/backgroundblack.png">
+
+<script src = "/socket.io/socket.io.js" charset="utf-8"></script><!--este nos permitira importar el codigo autogenerado de socket io , para que funcionen los web sockets en nuestra aplicacion web-->
+<script src="/js/main.js" charset="utf-8"></script>	
+
+<script src = "js/password.js" charset="utf-8"></script><!--script para las credenciales -->
+ 
+<form name="form1" align="center">
+
+	<div>
+		<table border="0" bgcolor="#000000" width="750" align="center">
+
+			<tr>
+				<td width="750" height="270" align="center"><img src="./imagenes/init.png"></td>
+				
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#000000" width="750" height="13"><font color="#FFFFFF" size="7">Ὑπερηφανία<font color="#FFFFFF"></font></td>
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#000000" width="750" height="13"><font color="#FFFFFF">-Anonymous Server-</font></td>
+			</tr>
+			</tr>
+				<tr>
+				<td border="0" bgcolor="#000000" width="750" height="55"></td>
+			</tr>
+			<tr>
+				<td border="0" bgcolor="#41DFD0" width="750" height="7"></td>
+			</tr>
+				<tr>
+				<td border="0" bgcolor="#000000" width="750" height="55"></td>
+			</tr>
+		</table>
+	</div>
+
+	<div>
+		<table border="0" bgcolor="#000000" width="750" align="center">
+			<FORM name=form>
+				<tr>
+					<td width="750" height="0"><font color="#FFFFFF">User: <input type="text" name="txt"></input><br></font></td>
+				</tr>
+				<tr>
+					<td width="750" height="0"><font color="#FFFFFF">Password: <input type="text" name="num"></input><br></font></td>
+				</tr>
+		</table>
+		<table border="0" bgcolor="#000000" width="750" align="center">
+				<tr>
+					<td width="750" height=100 aling="center"><input type="button" value="Login in" onclick="usrpas()"></td>
+				</tr>
+			</FORM> 
+		</table>
+	</div>
+
+</form>
+
+</body>
+</html>
